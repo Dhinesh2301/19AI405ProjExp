@@ -1,4 +1,8 @@
 # Implement a Sudoku Solver From Scratch
+
+## Aim
+ To implement a Sudoku solver using the backtracking algorithm to find the solution for the given Sudoku puzzle.
+
 ## Steps to solve the Sudoku Puzzle in Python
 <ol>
   <li>In this method for solving the sudoku puzzle, first, we assign the size of the 2D matrix to a variable M (M*M).</li>
@@ -13,9 +17,12 @@
 </ol>
 
 ## Program
+```
 Developed by:DHINESH R
 Reg No: 212223220019
 
+```
+```
 M = 9
 def puzzle(a):
     for i in range(M):
@@ -75,8 +82,13 @@ if (Suduko(grid, 0, 0)):
 else:
     print("Solution does not exist:")
 
-Output
-image
+```
 
-Result
-Thus, a Sudoku solver using the backtracking algorithm is implemented for the given Sudoku puzzle.
+## Output
+![image](https://github.com/shalinikannan23/19AI405ProjExp/assets/118656529/62586059-839c-47ac-997f-8112c0248759)
+
+
+
+
+## Result
+ Thus, a Sudoku solver using the backtracking algorithm is implemented for the given Sudoku puzzle.
